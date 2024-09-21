@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3f0850;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#inputDiv {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputDiv input {
+    background-color: #6f2681;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 450px;
+    font-size: 20px;
+    padding: 8px;
+    border: 0;
+    outline: 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    background-color: #6f2681;
+    color: white;
+    /* height: 250px; */
+    max-width: 800px;
+    border-radius: 20px;
+    padding: 3rem;
+
+}
+
+h1 {
+    padding-bottom: 5px;
+}
+
+#profile {
+    width: 30%;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #503b61;
+
+}
+
+#userData {
+    margin-left: 2rem;
+    padding: 10px;
+}
+
+#userData input {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+#passion {
+    font-style: italic;
+}
+
+#reach {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    margin-right: 40px;
+}
+
+.repo {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.7rem;
+    background-color: #503b61;
+
+}
